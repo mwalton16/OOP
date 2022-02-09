@@ -8,6 +8,4 @@ class Insect:
     def flight_f(self):
         self.flight = str(random.randint(1,10))
     def get_flight(self):
-        print(self.flight)
-       
-
+        return self.flight
